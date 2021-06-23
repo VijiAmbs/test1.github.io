@@ -8,6 +8,7 @@ body {
 	height: 100vh;
 	grid-template-columns: 1fr;
 	grid-template-rows: 1fr; 
+	background-color: black;
 }
 
 
@@ -30,10 +31,12 @@ img{
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	background-color: gray;
-	width: 10vw;
-	height: 25vh;
+	background-color: black;
+	width: 25vw;
+	height: 35vh;
 	border-radius: 10px;
+	resize: both;
+	overflow: auto;
 }
 
 #time{
