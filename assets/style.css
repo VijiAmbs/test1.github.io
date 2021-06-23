@@ -1,0 +1,53 @@
+html {
+	margin: 0;
+}
+
+body {
+	display: grid;
+	width: 100vw;
+	height: 100vh;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr; 
+}
+
+
+img{
+	justify-self: center;
+	align-self: center;
+	z-index: 0;
+
+}
+
+#watchGrid{
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	grid-template-rows: minmax(50px, auto);
+	justify-self: center;
+	align-self: center;
+	color: white;
+	z-index: 2;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: gray;
+	width: 10vw;
+	height: 25vh;
+	border-radius: 10px;
+}
+
+#time{
+	justify-self: center;
+	/*align-self: center;*/
+	color: white;
+	grid-column: 9/9;
+	grid-row: 1/9;
+	}
+
+	#navigation{
+		/*justify-self: center;*/
+	/*align-self: center;*/
+	color: white;
+	grid-column: 1/9;
+	grid-row: 1/9;
+	}
