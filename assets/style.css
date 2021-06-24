@@ -31,11 +31,17 @@ img{
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	background-color: floralwhite;
+	background-color: white;
 	width: 50vw;
 	height: 50vh;
 	border-radius: 10px;
 	
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
 }
 
 #time{
